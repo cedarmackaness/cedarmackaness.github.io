@@ -24,7 +24,10 @@
   .center-text  {
     text-align: center;
   }
-
+  tr, td {
+    padding:8px !important;
+  }
+  
 /******************************************/
 
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1962,6 +1965,7 @@
 
       table.default tbody tr {
         border-top: solid 1px #e5e5e5;
+        margin: 0.75em 1em 0.75em 1em;
       }
 
         table.default tbody tr:first-child {
@@ -1973,8 +1977,8 @@
         }
 
       table.default td {
-        padding: 0.5em 1em 0.5em 1em;
-      }
+        padding: 0.75em 1em 0.75em 1em;
+        }
 
       table.default th {
         text-align: left;
