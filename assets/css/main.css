@@ -39,6 +39,9 @@
   tr, td {
     padding:8px !important;
   }
+  a.toggle::before, a.toggle  {
+    display:none;
+  }
   
 /******************************************/
 
