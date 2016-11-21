@@ -1578,7 +1578,7 @@
 /* Basic */
 
   body {
-    background: #f0f4f4;
+    background: rgb(155,155,155);
     color: #5b5b5b;
     font-size: 15pt;
     line-height: 1.85em;
@@ -1644,6 +1644,7 @@
 
   a {
     color: inherit;
+    z-index:3;
     border-bottom: solid 1px rgba(128, 128, 128, 0.15);
     text-decoration: none;
     -moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -1755,6 +1756,7 @@
 
   footer {
     margin: 2.5em 0 0 0;
+    z-index:2;
   }
 
 /* Image */
@@ -2018,6 +2020,7 @@
   input[type="reset"],
   button,
   .button {
+    
     opacity: 0.8;
     position: relative;
     display: inline-block;
@@ -3071,3 +3074,24 @@
           }
 
   }
+
+#snowfall  {
+  height:100%;
+  width:100%;
+  z-index:1;
+  background: rgba(224,224,224,1);
+  background: -webkit-linear-gradient(rgba(224,224,224,.7) 0%, rgba(255,0,0,0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(224,224,224,.7) 0%, rgba(255,0,0,0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(224,224,224,.7) 0%, rgba(255,0,0,0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(224,224,224,.7) 0%, rgba(255,0,0,0)); 
+/* Standard syntax (must be last) */
+  background-attachment:fixed;position:absolute;top:0;left:0;
+}
+
+#container {
+  width: 100vw !important;
+}
+
+a#snow-link {
+  z-index: 2 !important;
+}
