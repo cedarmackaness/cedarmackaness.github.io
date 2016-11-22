@@ -104,5 +104,5 @@ window.onload = function(){
 	}
 	
 	setInterval(draw, 33);
->>>>>>> 133c0caadeca69ec4d779992af85f7e5271c9778
+
 }
