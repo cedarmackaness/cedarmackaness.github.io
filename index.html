@@ -194,7 +194,10 @@
 				</div>
 			
 		</div>
-			
+			 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+		<script>particlesJS.load('snow-fall', 'assets/particles.json', function() {
+			console.log('callback - particles.js config loaded');
+			});</script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
